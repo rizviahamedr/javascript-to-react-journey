@@ -385,4 +385,4 @@ function calculateServicePrice (service, quantity) {
 
   return totalPrice
 }
-console.log(calculateServicePrice("installation", 4));
+console.log(calculateServicePrice("installation", ));
