@@ -364,3 +364,25 @@ console.log(square(4));
 
 // console.log(square(4)); // 16
 
+
+function calculateServicePrice (service, quantity) {
+  let price = 0;
+  
+  if (service === "repair"){
+    price = 100;
+  } else if (service === "maintenance"){
+    price = 200;
+  } else if (service === "installation"){
+    price = 300;
+  }
+
+  let totalPrice = price * quantity;
+
+
+  if (totalPrice >= 1000){
+    totalPrice = totalPrice - (totalPrice * 0.1);
+  }
+
+  return totalPrice
+}
+console.log(calculateServicePrice("installation", 4));

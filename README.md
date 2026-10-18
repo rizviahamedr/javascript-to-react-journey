@@ -21,3 +21,8 @@ My 10-day intensive JavaScript learning journey.
 - [ ] Day 08 - Modules
 - [ ] Day 09 - React Preparation
 - [ ] Day 10 - Final Project
+
+git status
+git add .
+git commit -m "day-01: complete service price calculator"
+git push
