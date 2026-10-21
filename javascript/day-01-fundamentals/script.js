@@ -27,6 +27,13 @@ console.log(typeof price);
 console.log(typeof name);
 console.log(typeof age);
 
+// template literal
+
+const name1 = "Rizvi";
+const age1 = 24;
+
+const sentence = `My name is ${name1} and I am ${age1} years old.`;
+console.log(sentence);
 
 // - day 1 - coding challenge
 
